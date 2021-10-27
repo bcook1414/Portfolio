@@ -1,0 +1,134 @@
+.grid{
+    display: grid;
+    grid-template-columns: 2fr .5fr 2fr;
+    grid-template-rows: 100px 700px 800px 900px 700px 125px;
+}
+header{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50pt;
+}
+.edits1{
+    background-color: purple;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 100px 600px 100px;
+}
+#rose{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+#rose1{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.edits1 p{
+    grid-column: 1/3;
+    grid-row: 3;
+}
+.edits1 h1{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.edits2{
+    background-color: gold;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 100px 600px 100px;;
+}
+.edits2 h1{
+    grid-row: 1;
+    grid-column: 1/3;
+}
+.edits2 p{
+    grid-column: 1/3;
+    grid-row: 3;
+}
+#redesign{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+#redesign1{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.logos{
+    background-color: gray;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 3/4
+}
+.composite{
+     background-color: navy;
+    grid-column: 1/3;
+    grid-row: 4/6;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 100px 500px 500px 500px 500px 300px;
+}
+#jvj{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+#VE{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+#magazine{
+    grid-column: 1/2;
+    grid-row: 3;
+}
+#brindamour{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+#VEgif{
+    grid-column: 1/3;
+    grid-row: 4;
+}
+.thumbs{
+    background-color: green;
+    grid-column: 3/4;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 100px 300px 300px 300px 300px 300px;  
+    content: center;
+}
+#thumb1{
+    grid-row: 2;
+}
+#thumb2{
+    grid-row: 4;
+}
+#thumb3{
+    grid-row: 6;
+}
+#thumb4{
+    grid-row: 3;
+}
+#thumb5{
+    grid-row: 5;
+}
+.apparel{
+    background-color: orange;
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+ul{
+    list-style: none;
+    display: block;
+    align-content: center;
+}
+footer{
+    background-color: orchid;
+    grid-row: 6/7;
+    grid-column: 1/4;
+    align-content: center;
+}
